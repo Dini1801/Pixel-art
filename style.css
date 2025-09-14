@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f9;
+}
+
+h1 {
+  margin: 20px;
+  color: #333;
+}
+
+.controls {
+  margin-bottom: 15px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(16, 20px);
+  grid-template-rows: repeat(16, 20px);
+  gap: 1px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
